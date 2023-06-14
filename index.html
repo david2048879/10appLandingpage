@@ -10,14 +10,13 @@
 </head>
 <body  class="bg-color-primary text-color-white tracking-wider">
     <header class="sticky top-0 z-50">
-        <nav class="container flex justify-between items-center">
+        <nav class="container flex justify-between items-center w-full">
             <div class="py-5 text-color-secondary font-bold text-3xl">
                 <a href="#home" class="flex gap-5">
-                    <img src="./img/log.png" alt="" width="40%" srcset="">
                     <h1><span class="text-color-white">10</span>App.</h1>
                 </a>
             </div>
-            <div>
+            <div class="flex">
                 <ul class="hidden lg:flex items-center space-x-6">
                     <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
                     <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
@@ -25,21 +24,23 @@
                     <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
                     <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
 
-                    <li><a href="#contact"><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Book with us</button></a></li>
-                </ul>
+                    
+                <li><a href="#contact"><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Book with us</button></a></li>
+                
+            </ul>
+            
+                  
                 
             </div>
-            <!-- <div class="py-5 text-color-secondary font-bold text-3xl">
-                <a href="#home">
-                    <img src="./img/log.png" alt="" width="20%" srcset="">
-                </a>
-            </div> -->
+           
+            
            
 
             <!-- Mobile screen  -->
             <div id="hamburger" class="lg:hidden cursor-pointer z-50">
                 <i class="fa-solid fa-bars"></i>
             </div>
+
 
             <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
                 <ul class="h-full grid place-items-center py-20">
@@ -53,6 +54,10 @@
                     <li><button class="btn">free trial</button></li>
                 </ul>
             </div>
+            <div class="p-30">
+                <img src="./img/log.png" alt="" width="30%" srcset="" class="relative mr-0">
+            </div>
+            
         </nav>
     </header>
 
@@ -351,7 +356,7 @@
         <section id="download-app" class="bg-color-primary-light">
             <div class="container h-[80vh] grid place-items-center">
                 <div class="text-center md:w-2/3 m-auto">
-                    <h1 class="title">Book your plann</h1>
+                    <h1 class="title">Book your plan</h1>
                     <p class="leading-relaxed pt-5">impressive list of long-term money with experience and expertise in multiple industries.</p>
 
                     <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
@@ -556,6 +561,11 @@
             card_3_back.classList.toggle('rotate-y-180');
             
         })
+
+        //send email
+
+    
     </script>
+
 </body>
 </html>
